@@ -1,9 +1,7 @@
 package com.example.demo.utils.sysurl;
 
-import com.laimi.tms.utils.CollectionUtil;
-import com.laimi.tms.utils.OpUtil;
-import com.laimi.wms.controller.WmsShiftTaskController;
-
+import com.example.demo.utils.CollectionUtil;
+import com.example.demo.utils.OpUtil;
 import java.lang.annotation.Annotation;
 import java.util.List;
 import java.util.Map;
@@ -24,7 +22,7 @@ public class SysUrlParser extends AbstractSysUrlParser{
         apiVersion.add(SysUrlVersion.RF_1);
 
         // 要忽略的 Class
-         excludeClasses.add(WmsShiftTaskController.class);
+//         excludeClasses.add(WmsShiftTaskController.class);
 
         // 要忽略的 URL
         /*excludeUrls.add("/api/stockRecord/export");

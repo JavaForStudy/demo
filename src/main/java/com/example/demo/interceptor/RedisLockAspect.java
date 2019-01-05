@@ -1,7 +1,7 @@
 package com.example.demo.interceptor;
 
-import com.laimi.tms.common.BusinessException;
-import com.laimi.tms.utils.RedisUtils;
+import com.example.demo.common.BusinessException;
+import com.example.demo.utils.RedisUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
