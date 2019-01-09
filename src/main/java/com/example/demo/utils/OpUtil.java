@@ -1,6 +1,6 @@
 package com.example.demo.utils;
 
-import com.laimi.tms.common.BusinessException;
+import com.example.demo.common.BusinessException;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
