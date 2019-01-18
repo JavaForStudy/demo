@@ -1,9 +1,8 @@
-package com.example.demo.multithreading;
+package com.example.demo.multiThread;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
-import java.util.concurrent.ThreadFactory;
 
 /**
  * @ClassName

@@ -1,4 +1,4 @@
-package com.example.demo.multithreading;
+package com.example.demo.multiThread;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;

@@ -19,6 +19,10 @@ public class Singleton04Test {
 
         File file = new File("test");
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file));
+
+
+
+
         Singleton04 newInstance = (Singleton04) ois.readObject();
         System.out.println(newInstance == Singleton04.getUniqueSingleton());
         file.delete();

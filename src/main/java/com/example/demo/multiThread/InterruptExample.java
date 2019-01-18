@@ -1,7 +1,5 @@
-package com.example.demo.multithreading;
+package com.example.demo.multiThread;
 
-
-import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @ClassName

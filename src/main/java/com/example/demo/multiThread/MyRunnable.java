@@ -1,4 +1,4 @@
-package com.example.demo.multithreading;
+package com.example.demo.multiThread;
 
 /**
  * @ClassName
